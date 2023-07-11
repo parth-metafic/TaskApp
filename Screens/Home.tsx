@@ -37,7 +37,7 @@ class Home extends PureComponent<Props, State> {
     };
   }
 
-  private interval: number = 0;
+  private interval: any = 0;
 
   componentDidMount(): void {
     this.initialData();
